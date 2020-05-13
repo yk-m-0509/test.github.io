@@ -1,0 +1,108 @@
+/* CSSのリセット（消さないでください） */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  height: 65px;
+  background-color: rgba(34, 49, 52, 0.9);
+}
+
+.logo {
+  width: 124px;
+  margin-top: 20px;
+}
+
+.header-left {
+  float:left;
+
+  
+}
+
+.header-right {
+  float: right;
+  background-color: rgba(255, 255, 255, 0.3);
+
+}
+
+.header-right a{
+  color: white;
+  line-height: 65px;
+  padding: 0 25px;
+}
+
+.header-right :hover{
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.top-wrapper {
+  background-image: url(https://prog-8.com/images/html/advanced/top.png);
+  background-size: cover;
+  padding-top: 180px;
+  padding-bottom: 100px;
+  color: white;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+  opacity: 0.7;
+}
+
+h1 {
+  font-size: 45px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  color: white;
+  /*opacity: 0.7;*/
+}
+
+
+.btn-wrappaer p{
+  
+   padding: 15px 0;
+}
+.btn {
+  display: inline-block;
+  padding: 8px 24px;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.Signup {
+  margin-top: 30px;
+  background-color: #239b76;
+}
+
+.Facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+.Twitter {
+  background-color: #55acee;
+  
+}
+
+a:hover {
+  opacity: 1;
+  cursor: pointer;
+}
